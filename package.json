@@ -5,7 +5,8 @@
   "repository": "https://github.com/kirill0202/Jest.git",
   "author": "Kirill",
   "scripts": {
-    "start": "jest"
+    "start": "jest",
+    "test:watch": "jest --watch"
   },
   "license": "MIT",
   "devDependencies": {

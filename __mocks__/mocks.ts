@@ -53,3 +53,10 @@ export const result_mocks_data: MocksDataType[] = [
     price: 300,
   },
 ];
+
+export const mockTodo = { id: 1, title: "Todo 1", completed: false };
+
+export const mockResponseTodo = {
+  id: 201,
+  title: "todo",
+};

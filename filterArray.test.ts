@@ -26,3 +26,15 @@ describe("filterArray tests", () => {
     expect(result).toEqual(result_mocks_data);
   });
 });
+
+describe("filterArray spies", () => {
+  it("should logSpy console", () => {
+    const logSpy = jest.spyOn(console, "log");
+
+    const hasPrice = ({ price }: MocksDataType) => price > 100;
+    const result = filterArray(mocks_data, hasPrice);
+    expect(result).toEqual(result_mocks_data);
+
+    expect(logSpy).toHaveBeenCalledTimes(mocks_data.length);
+  });
+});

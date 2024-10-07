@@ -4,6 +4,7 @@ export const filterArray = <T>(
 ): T[] => {
   const newArray: T[] = [];
   for (let i = 0; i < array.length; i++) {
+    console.log("array[i]", array[i]);
     if (callback(array[i])) {
       newArray.push(array[i]);
     }

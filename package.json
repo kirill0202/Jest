@@ -6,7 +6,7 @@
   "author": "Kirill",
   "scripts": {
     "start": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch --coverage false"
   },
   "license": "MIT",
   "devDependencies": {

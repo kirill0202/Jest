@@ -6,7 +6,8 @@
   "author": "Kirill",
   "scripts": {
     "start": "jest",
-    "test:watch": "jest --watch --coverage false"
+    "test:watch": "jest --watch --coverage false",
+    "test:integration": "jest --config jest.integration.config.ts"
   },
   "license": "MIT",
   "devDependencies": {

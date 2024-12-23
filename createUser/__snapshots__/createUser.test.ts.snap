@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createUser should create user with firstname and lastname 1`] = `
+{
+  "age": undefined,
+  "email": undefined,
+  "lastName": "Korobov",
+  "name": "Kirill",
+  "phone": undefined,
+}
+`;
+
+exports[`createUser should create user with firstname, lastname and phone 1`] = `
+{
+  "age": undefined,
+  "email": undefined,
+  "lastName": "Korobov",
+  "name": "Kirill",
+  "phone": "+7(123)456-78-90",
+}
+`;
+
+exports[`createUser should create user with firstname, lastname, phone, email 1`] = `
+{
+  "age": undefined,
+  "email": "test@example.com",
+  "lastName": "Korobov",
+  "name": "Kirill",
+  "phone": "+7(123)456-78-90",
+}
+`;
